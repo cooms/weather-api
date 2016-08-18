@@ -1,0 +1,20 @@
+{
+  "name": "weather_api",
+  "version": "0.1.0",
+  "description": "Weather API for Tips",
+  "main": "index.js",
+  "scripts": {
+    "knex": "knex",
+    "start":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "knex": "^0.11.10",
+    "nodemon": "^1.10.2",
+    "sqlite3": "^3.1.4"
+  }
+}
